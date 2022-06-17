@@ -1,4 +1,5 @@
 import chicken from "assets/announcements/chickens.gif";
+import nomad from "assets/announcements/nomad.png";
 
 export interface Announcement {
   date: Date;
@@ -22,5 +23,17 @@ export const ANNOUNCEMENTS: Announcement[] = [
     ],
     link: "https://docs.sunflower-land.com/crafting-guide/farming-and-gathering#animals",
     image: chicken,
+  },
+  {
+    date: new Date(
+      "Tue Jun 17 2022 08:10:00 GMT-0300 (Brasilia Standard Time)"
+    ),
+    title: "Nomad Trader",
+    notes: [
+      "Find weekly offers",
+      "Trade resources for items",
+      "What would be the next offer?",
+    ],
+    image: nomad,
   },
 ];
