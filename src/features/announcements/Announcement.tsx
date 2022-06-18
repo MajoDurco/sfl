@@ -39,7 +39,9 @@ export const Announcements: React.FC = () => {
           })}
         >
           {announcements.map((announcement, index) => (
-            <Announcement key={index} announcement={announcement} />
+            <div className="mb-4" key={index}>
+              <Announcement key={index} announcement={announcement} />
+            </div>
           ))}
         </div>
       </>

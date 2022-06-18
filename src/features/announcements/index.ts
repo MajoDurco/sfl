@@ -1,5 +1,5 @@
 import chicken from "assets/announcements/chickens.gif";
-import nomad from "assets/announcements/nomad.png";
+import nomad from "assets/announcements/nomad.gif";
 
 export interface Announcement {
   date: Date;
@@ -30,9 +30,9 @@ export const ANNOUNCEMENTS: Announcement[] = [
     ),
     title: "Nomad Trader",
     notes: [
-      "Find weekly offers",
+      "Find special limited offers",
       "Trade resources for items",
-      "What would be the next offer?",
+      "What will be the next offer?",
     ],
     image: nomad,
   },
